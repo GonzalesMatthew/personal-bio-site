@@ -1,3 +1,26 @@
+
 body {
   background-color: antiquewhite;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.about-me{
+
+}
+
+.skills-tools{
+  margin: auto;
+  padding: 20px;
+  /* text-align: center; */
+
+}
+
+.contact-info{
+  text-align: center;
+
+}
+
+ul {
+  list-style: none;
 }
