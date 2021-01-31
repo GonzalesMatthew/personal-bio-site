@@ -28,18 +28,20 @@
       <!-- TODO: Insert some sort of H1-H6 with your name here -->
       <h1>Matthew Gregory Gonzales</h1>
       <ul id="navLinks">
-        <li><a id="navToBio">Bio</a></li>
-        <li><a id="navToTechnologies">Technologies</a></li>
-        <li><a id="navToProjects">Projects</a></li>
+        <li><a id="navToBio" class="btn btn-primary" onclick=navFunc(this.id)>Bio</a></li>
+        <li>
+          <a id="navToTechnologies" class="btn btn-danger" onclick=navFunc(this.id)>Technologies</a>
+        </li>
+        <li><a id="navToProjects" class="btn btn-success" onclick=navFunc(this.id)>Projects</a></li>
       </ul>
     </nav>
     <!-- End Navigation -->
 
     <!-- Primary View -->
-
-    <!-- Bio -->
-    <div class="fullPage" id="bioPage">
+    <!-- Bio Page -->
+    <div class="fullPage text-center" id="bioPage">
       <!-- TODO: Fill in bio info here: What is your background? Why do you want to go into development? What do you love about development? -->
+      <h2>Bio</h2>
       <div class="about-me">
         <p>
           I am a data professional with a BS in Mathematics/Economics from the
@@ -59,9 +61,10 @@
       </div>
     </div>
 
-    <!-- Technologies -->
-    <div class="fullPage" id="technologiesPage">
+    <!-- Technologies Page -->
+    <div class="fullPage text-center" id="technologiesPage">
       <!-- TODO: Start an UL of all of the tools and technologies you've started learning so far. (You'll beef this page up later). -->
+      <h2>Technologies</h2>
       <div class="skills-tools">
         <ul>
           Skills/Tools:
@@ -74,8 +77,8 @@
       </div>
     </div>
 
-    <!-- Projects -->
-    <div class="fullPage" id="projectsPage"></div>
+    <!-- Projects Page -->
+    <div class="fullPage text-center" id="projectsPage"></div>
     <!-- End Primary View -->
 
     <!-- Footer -->
@@ -90,13 +93,13 @@
     </footer>
     <!-- End Footer -->
     <!-- Javascript -->
-      <!-- Bootstrap -->
+    <!-- Bootstrap -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
       crossorigin="anonymous"
     ></script>
-      <!-- JS -->
+    <!-- JS -->
     <script src="main.js"></script>
   </body>
 </html>
