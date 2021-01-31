@@ -19,3 +19,11 @@ body {
 ul {
   list-style: none;
 }
+
+#technologiesPage{
+  display: none;
+}
+
+#projectsPage{
+  display: none;
+}
